@@ -5,28 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarefa 1 Artemis</title>
+   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<div>
-    <h1>Artemis Program</h1>
-    <h2>Tarefa 1</h2>
+   
+<div >
+    <h1 class="titulo">Artemis Program</h1>
+   <div class="Cabecalho"> <h2>Tarefa 1</h2>
 
     <ul>
         <li>Resumo da 1ª aula</li>
         <li>Explicar o que entendeu sobre HTML</li>
         <li>Formulário (um evento + um convidado)</li>
       </ul>
-</div>
-<div>
-  <hr>
-  <p>Na primeira aula do Artemis Program aprendemos a base do HTML (Semantica, tags, atributos...), formularios, tabelas e como importar imagens.</p>
-  <hr>
-</div>
+
+      <p>Na primeira aula do Artemis Program aprendemos <br> a base do HTML  (Semantica, tags, atributos...),<br> formularios, tabelas e como importar imagens.</p>
+    </div>
+    </div>
+<hr>
+<hr style="background-color: black;">
   <div>
    
     <form>
-      <h2><strong> Churrasco na casa do Lucas </strong></h2>
-      <p>Você esta sendo convidado para um <i>churrasco vegano</i> na casa do <strong> Lucas</strong>. Apesar de não ter carne, tenho certeza que não vai faltar uma resenha legal, junto com piadas do patrão. Para confirmar a sua presença, <strong>preencha com seu dados abaixo:</strong></p>
+      <h2 class="titulodois"><strong> Churrasco na casa do Lucas </strong></h2>
+      <p> Você esta sendo convidado para um <i>churrasco vegano</i> na casa do <strong> Lucas</strong>. Apesar de não ter carne, tenho certeza que não vai faltar uma resenha legal, junto com piadas do patrão. Para confirmar a sua presença, <strong>preencha com seu dados abaixo:</strong></p>
       <label for="" style="display: block"><strong> Nome: </strong> <br>
           <input type="text" placeholder="Escreva seu nome" name="Nome">
       </label> <br>
@@ -46,7 +48,7 @@
         <input type="checkbox" name="termos" ><strong>Aceito os <a target="_blank" href="" title="(Não levar carne seu safado)"> termos do churrasco </a></strong>
     </label> <br>
      <textarea cols="30" rows="10" placeholder="Se você for alergico a algum alimento, escreva aqui."></textarea><br>
-     <h3>Informações do evento</h3>
+     <h3 class="titulotres">Informações do evento</h3>
      <ul>
          <li>Acontecera no dia 20/06 as 20:00</li>
          <li>Na Rua x numero y bairro z (não sei onde o Lucas mora)</li>
@@ -54,12 +56,12 @@
     <p><strong>Mande uma foto fazendo beleza!</strong> <input type="file"> 
       
 <div>
-     <p>Abaixo, nos diga qual <strong> comida/bebida</strong> você vai levar:</p>
+     <p class="textocinco">Abaixo, nos diga qual <strong> comida/bebida</strong> você vai levar:</p>
      <label for="comida" style="display: block"><input type="radio" name="comida" value="3">Larica: <br><select name="" id=""> <option value="">Escolha uma opção...</option><option value="">Pão de alho (o melhor!)</option><option value="">Uma belissima saladinha</option></select></label> <br>
      <label for="comida" style="display: block"><input type="radio" name="comida" value="3">Refrigerante: <br><select name="" id=""> <strong>Refrigerante:</strong> <option value="">Escolha uma opção...</option><option value="">Guaraná</option><option value="">Coca-Cola</option></select></label>
 </div>
      <br> 
-     <input type="submit">
+     <input type="submit" class="botao">
      <p>Aguardamos sua presença!!!</p>
     </form>
 </div>

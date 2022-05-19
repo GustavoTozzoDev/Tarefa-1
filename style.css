@@ -1,0 +1,97 @@
+body {
+    margin: 30px;
+    padding: 20px 10px;
+}
+
+.Cabecalho {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.titulo {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+background-color: rgb(218, 159, 92);
+border-radius: 15px;
+margin-left: -25px;
+margin-bottom: -15px;
+z-index: 999;
+width: 30%;
+
+}
+
+hr {
+    background-color: rgb(218, 159, 92);
+    height: 2px;
+}
+
+.linhados {
+    background-color: black;
+    height: 2px;
+}
+
+form {
+    font-family: sans-serif;
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.titulodois {
+    font-size: 2em;
+    color:white;
+    background-color: rgb(218, 159, 92);
+    padding: 5px;
+    margin: 10px 80px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+   border: 1px solid black;
+   border-radius: 5px;
+   padding: 8px 8px;
+   outline: 0;
+   margin-top: 3px;
+}
+
+input:focus {
+    border: 2px solid rgb(218, 159, 92);
+}
+
+textarea {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px 8px;
+    outline: 0;
+}
+
+textarea:focus {
+    border: 2px solid rgb(218, 159, 92);
+}
+
+.titulotres {
+    font-size: 1.5em;
+    color:white;
+    background-color: rgb(218, 159, 92);
+    padding: 5px;
+    margin: 10px 80px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
